@@ -1,0 +1,40 @@
+{
+  "idea": {
+    "title": "Show HN: Streambench \u2013 Native Mac Client for Kafka and NATS",
+    "source_url": "https://streambench.app",
+    "source_platform": "Hacker News Show HN",
+    "description": "Build a native Mac client for Kafka and NATS messaging systems using a static HTML/CSS/JS website. The client will allow users to send and receive messages through these systems without any need for database or payment integration.",
+    "suggested_language": "..."
+  },
+  "spec": {
+    "name": "Streambench Client",
+    "slug": "streambench-client",
+    "language": "HTML/CSS/JS",
+    "description": "Build a native Mac client for Kafka and NATS messaging systems using a static HTML/CSS/JS website. The client allows users to send and receive messages without needing a database or any payment integration.",
+    "files": [
+      {
+        "path": "index.html",
+        "purpose": "Main HTML page"
+      },
+      {
+        "path": "styles.css",
+        "purpose": "Styling for the client"
+      },
+      {
+        "path": "script.js",
+        "purpose": "Client-side logic and interactivity"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "file": "script.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    }
+  ],
+  "engine": "ollama (qwen2.5:3b)",
+  "generated_at": "2026-08-21 10:48:20",
+  "project_dir": "C:\\projects saad\\code cladu poject\\projt gent\\generated\\streambench-client"
+}

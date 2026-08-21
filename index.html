@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streambench Client</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Streambench Client</h1>
+        <nav>
+            <ul>
+                <li><a href="#send">Send Message</a></li>
+                <li><a href="#receive">Receive Message</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="send">
+            <h2>Send Message</h2>
+            <form id="messageForm">
+                <label for="topic">Topic:</label>
+                <input type="text" id="topic" name="topic" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section id="receive">
+            <h2>Receive Messages</h2>
+            <ul id="messages"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Streambench. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
