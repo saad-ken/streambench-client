@@ -6,6 +6,7 @@
 
 **Stack:** HTML/CSS/JS
 **Repo:** https://github.com/saad-ken/streambench-client
+**Live:** https://saad-ken.github.io/streambench-client/ (may take a minute to finish deploying)
 
 ## Files
 - `index.html` — Main HTML page
